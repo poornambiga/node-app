@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: nanajanashia/demo-app:node-1.0
+          image: poornambiga/node-app:node-app-1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
       imagePullSecrets:
-        - name: myregistrysecret
+        - name: mysecret
